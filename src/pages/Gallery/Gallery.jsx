@@ -1,7 +1,7 @@
 import React from 'react';
 import PropCard from '../../components/PropCard/PropCard';
 import { GalleryProvider } from '../../context/GalleryContext';
-import GalleryMenu from '../../components/GalleryMenu copy/GalleryMenu';
+import GalleryMenu from '../../components/GalleryStack/GalleryMenu';
 const Gallery = () => {
   return (
     <GalleryProvider>
