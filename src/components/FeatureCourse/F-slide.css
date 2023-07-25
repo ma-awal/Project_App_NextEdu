@@ -1,0 +1,44 @@
+.F-slide .single-slide {
+  max-width: 95%;
+  position: relative;
+  border: 2px solid #ddd;
+  transition: var(--transtion);
+  margin: auto;
+}
+.F-slide .single-slide:hover {
+  border: 2px solid var(--tomato-4);
+}
+.F-slide .price {
+  background: var(--tomato-4);
+  color: var(--white-1);
+  position: absolute;
+  top: 40%;
+  right: 0;
+  left: 60%;
+  bottom: 0;
+  width: 60px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: var(--fw-bold);
+}
+.F-slide .icons span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 16px !important;
+  color: var(--dark-2);
+  font-weight: var(--fw-semi);
+}
+.F-slide .icons span .icon {
+  color: var(--tomato-4) !important;
+}
+
+.F-slide .slide-btn {
+  background: var(--tomato-4) !important;
+}
+.F-slide .slide-btn a {
+  color: var(--white-1) !important;
+}

@@ -1,0 +1,17 @@
+.H-campus {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.H-campus .icon {
+  background: var(--tomato-1);
+  color: var(--white-1);
+  padding: 1px;
+}
+
+@media (max-width: 992px) {
+  .H-campus {
+    height: max-content;
+  }
+}

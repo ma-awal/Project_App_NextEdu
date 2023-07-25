@@ -1,0 +1,40 @@
+.U-search {
+  background: #0d1028a0;
+}
+
+.U-search .box {
+  z-index: 1000;
+}
+.U-search .input-field {
+  background: var(--white-1);
+  height: max-content;
+}
+.U-search .input-search {
+  border: 2px solid #ddd;
+}
+.U-search .input-search button {
+  background: var(--tomato-4) !important;
+  color: var(--white-1);
+}
+
+.U-search .input-item {
+  max-height: 700px;
+  overflow-y: auto;
+}
+.U-search .input-item li {
+  display: flex;
+  color: var(--blue-1);
+  font-weight: var(--fw-semi);
+  align-items: center;
+  gap: 0.4rem;
+  line-height: 2.4;
+  font-size: var(--font-link);
+}
+.U-search .input-item li .icon {
+  background: var(--tomato-4) !important;
+  color: var(--white-1);
+}
+.U-search .close-btn button {
+  background: var(--tomato-4) !important;
+  color: var(--white-1);
+}

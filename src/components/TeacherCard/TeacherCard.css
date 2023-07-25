@@ -1,0 +1,74 @@
+.TeacherCard .single-person {
+  position: relative;
+  z-index: 1--;
+  transition: var(--transitions);
+}
+
+.TeacherCard .single-person img {
+  max-width: 100%;
+  object-fit: cover;
+}
+.TeacherCard .social-icons {
+  position: absolute;
+  top: 100;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  transition: var(--transition);
+  background: var(--blue-1);
+}
+.TeacherCard .social-icons .link {
+  color: var(--white-1) !important;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: var(--blue-2) !important;
+  font-size: 18px;
+  transition: var(--transition);
+}
+
+.TeacherCard .social-icons .link:hover {
+  color: var(--white-1) !important;
+  background: var(--tomato-4) !important;
+}
+
+.TeacherCard .info {
+  transition: var(--transition);
+  border-bottom: 2px solid var(--tomato-4);
+}
+
+.TeacherCard .info:hover {
+  background: var(--tomato-4) !important;
+}
+.TeacherCard .info:hover h5 {
+  color: var(--white-1) !important;
+}
+.TeacherCard .info:hover p {
+  color: var(--white-1) !important;
+}
+/* part 2 */
+.TeacherCard .info-2 {
+  background: var(--blue-1);
+  transition: var(--transition);
+}
+.TeacherCard .info-2:hover {
+  background: var(--tomato-3);
+}
+.TeacherCard .info-2 h5 {
+  color: var(--white-1) !important;
+}
+.TeacherCard .info-2 p {
+  color: var(--white-1) !important;
+}
+.TeacherCard .info-2 .link a {
+  color: var(--white-1) !important;
+}

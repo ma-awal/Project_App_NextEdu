@@ -1,0 +1,32 @@
+.StudentCard .search-input .form-select:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.StudentCard .search-input,
+.StudentCard .broucher {
+  background: var(--white-2);
+}
+.StudentCard .search-input button,
+.StudentCard .broucher button {
+  background: var(--tomato-4);
+  color: var(--white-1);
+}
+
+.StudentCard .single-card {
+  transition: var(--transition);
+  overflow: hidden;
+}
+
+.StudentCard .single-card:hover {
+  color: var(--tomato-4);
+  box-shadow: 0px 0px 39px 2px rgba(238, 235, 235, 0.076);
+}
+.StudentCard .single-card span {
+  font-weight: var(--fw-semi) !important;
+  font-weight: var(--font-link);
+}
+.StudentCard .single-card:hover h5,
+.StudentCard .single-card:hover strong {
+  color: var(--tomato-4) !important;
+}

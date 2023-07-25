@@ -1,0 +1,24 @@
+.All {
+  min-height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  max-height: 100%;
+  background: url('../../assets/about_us.png') no-repeat center/cover;
+}
+
+.All .box h2 {
+  color: var(--white-1) !important;
+  font-weight: bold;
+}
+.All .box-link,
+.box-link a {
+  color: var(--white-1);
+  font-weight: var(--fw-semi);
+}
+
+.box-link a.active {
+  color: var(--white-1);
+  font-weight: var(--fw-semi);
+}

@@ -1,0 +1,47 @@
+.AboutInstructor .single-person {
+  position: relative;
+  z-index: 1--;
+  transition: var(--transitions);
+}
+
+.AboutInstructor .single-person img {
+  max-width: 100%;
+  object-fit: cover;
+}
+.AboutInstructor .social-icons {
+  position: absolute;
+  top: 100;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 1rem;
+  transition: var(--transition);
+  margin-bottom: 2rem;
+}
+.AboutInstructor .social-icons .link {
+  color: var(--dark-3) !important;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: var(--white-1) !important;
+  font-size: 18px;
+  transition: var(--transition);
+}
+
+.AboutInstructor .social-icons .link:hover {
+  color: var(--white-1) !important;
+  background: var(--tomato-4) !important;
+}
+
+.AboutInstructor .box h5 {
+  margin: 0;
+  margin-bottom: 0.2rem;
+}

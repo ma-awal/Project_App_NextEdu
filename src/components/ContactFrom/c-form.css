@@ -1,0 +1,37 @@
+.c-form form {
+  line-height: 3rem;
+}
+.c-form .heading span {
+  background: var(--tomato-4);
+  height: 3px;
+  flex: 0.9;
+}
+
+.c-form form .input_div input {
+  background: var(--white-2);
+  padding: 0.6rem 0.6rem;
+  color: var(--dark-1);
+  font-size: var(--font-base);
+  font-weight: var(--fw-semi);
+  border: 2px solid #ddd;
+  border-radius: 0;
+}
+
+.c-form form .textarea .text_area {
+  box-shadow: none !important;
+  background: var(--white-2);
+  padding: 0.6rem 0.6rem;
+  color: var(--dark-1);
+  font-size: var(--font-base);
+  font-weight: var(--fw-semi);
+  border: 2px solid #ddd;
+  border-radius: 0;
+  resize: none !important;
+}
+.c-form form button {
+  background: var(--tomato-4) !important;
+  color: var(--white-1) !important;
+  padding: 0.7rem 1.5rem;
+
+  font-weight: var(--fw-semi);
+}

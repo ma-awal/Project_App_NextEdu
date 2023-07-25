@@ -1,0 +1,33 @@
+.AboutChoose {
+}
+.AboutChoose .single-card .btn {
+  background: var(--tomato-4) !important;
+  border-radius: 0;
+}
+.AboutChoose .single-card .btn a {
+  color: var(--white-1) !important;
+  font-size: var(--font-link) !important;
+  font-weight: var(--fw-semi) !important;
+}
+
+.AboutChoose .single-item span {
+  border: 2px solid var(--tomato-4);
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--tomato-4);
+  font-size: 22px;
+  transition: var(--transition);
+}
+
+.AboutChoose .single-item h5 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0.5rem;
+}
+.AboutChoose .single-item span:hover {
+  color: var(--white-1);
+  background: var(--tomato-4);
+}

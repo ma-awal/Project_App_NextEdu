@@ -1,0 +1,21 @@
+.SearchResult .search-input .form-select:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.SearchResult .search-input .form-select,
+.SearchResult .search-input input {
+  background: var(--white-2);
+}
+.SearchResult button {
+  background: var(--tomato-4) !important;
+  color: var(--white-1) !important;
+}
+
+.SearchResult .gap {
+  min-height: 10vh;
+}
+
+.SearchResult .f-table {
+  font-size: var(--font-link);
+  color: var(--dark-1);
+}

@@ -1,0 +1,28 @@
+.GalleryCard .single-card {
+  position: relative;
+}
+
+.GalleryCard .single-card .link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 99, 71, 0.569);
+  z-index: 1;
+  opacity: 0;
+}
+.GalleryCard .single-card:hover .link {
+  opacity: 1;
+}
+
+.GalleryCard .single-card .btns button {
+  background: transparent;
+  width: 50px;
+  height: 50px;
+  border: 2px solid var(--white-1);
+  color: var(--white-1);
+}
+.GalleryCard .single-card .btns button a {
+  color: var(--white-1) !important;
+}

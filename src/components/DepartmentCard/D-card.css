@@ -1,0 +1,21 @@
+.D-card {
+}
+.D-card .single-card {
+  transition: var(--transition);
+  border: 2px solid #ddd;
+}
+.D-card .single-card:hover {
+  border: 2px solid var(--tomato-4);
+  box-shadow: 0px 0px 25px 5px rgba(19, 21, 26, 0.113);
+}
+.D-card .single-card a {
+  color: var(--tomato-4) !important;
+  font-size: var(--font-link) !important;
+  font-weight: var(--fw-semi) !important;
+}
+.D-card .btn {
+  background: var(--tomato-4) !important;
+  color: var(--white-1) !important;
+  font-weight: var(--fw-semi) !important;
+  font-size: var(--font-link);
+}

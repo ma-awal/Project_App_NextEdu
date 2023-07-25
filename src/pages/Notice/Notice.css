@@ -1,0 +1,27 @@
+.Notice .box {
+  border: 2px solid #ddd;
+}
+
+.Notice .box:hover {
+  border: 2px solid var(--tomato-4) !important;
+}
+.Notice .box .time {
+  border: 2px solid var(--tomato-4) !important;
+  color: var(--tomato-4);
+  text-align: center;
+  padding: 0.4rem 0rem;
+}
+.Notice .box .time h3 {
+  font-weight: var(--fw-bold);
+}
+.Notice .box .time h6 {
+  font-weight: var(--fw-semi);
+  font-size: var(--font--link) !important;
+}
+.Notice .box .link .btn {
+  font-weight: var(--fw-semi);
+  background: var(--tomato-4);
+}
+.Notice .box .link .btn a {
+  color: var(--white-1);
+}

@@ -1,0 +1,13 @@
+.H-count {
+}
+.H-count .box {
+  border: 4px dashed var(--dark-2);
+}
+.H-count .box h1 {
+  color: var(--tomato-4) !important;
+  font-weight: var(--fw-bold) !important;
+}
+.H-count .box h6 {
+  color: var(--white-1) !important;
+  font-weight: var(--fw-semi) !important;
+}

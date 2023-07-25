@@ -1,0 +1,15 @@
+.BlogCard .single-card {
+}
+.BlogCard .single-card .info span {
+  color: var(--tomato-4);
+  font-size: var(--font-base) !important;
+  font-weight: var(--fw-semi) !important;
+}
+.BlogCard .single-card .info h5 {
+}
+
+.BlogCard .single-card .info a {
+  color: var(--tomato-4) !important;
+  font-size: var(--font-link) !important;
+  font-weight: var(--fw-semi) !important;
+}

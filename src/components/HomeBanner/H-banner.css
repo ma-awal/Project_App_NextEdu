@@ -1,0 +1,47 @@
+.H-banner {
+  background: url('../../assets/slider_bg_3.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 12rem 0rem;
+  height: 85vh;
+  max-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.H-banner .H-btn button {
+  background: var(--tomato-4) !important;
+  width: 130px;
+  padding: 0.2rem 0rem;
+}
+.H-banner .H-btn button a {
+  color: var(--white-1) !important;
+  font-weight: var(--fw-semi) !important;
+}
+@media (max-width: 1140px) {
+  .H-banner {
+    height: min-content;
+    max-height: 100%;
+    padding: 7rem 0rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .H-banner {
+    height: min-content;
+    max-height: 100%;
+    padding: 4rem 0rem;
+  }
+}
+@media (max-width: 768px) {
+  .H-banner {
+    height: min-content;
+    padding: 3rem 0rem;
+  }
+}
+@media (max-width: 576px) {
+  .H-banner {
+    padding: 2.5rem 0rem;
+  }
+}

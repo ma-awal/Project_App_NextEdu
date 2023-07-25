@@ -1,0 +1,27 @@
+.EventCard {
+}
+.EventCard .single-event {
+}
+.EventCard .date span {
+  font-weight: var(--fw-semi);
+  color: var(--dark-3);
+  font-size: var(--font-link);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+}
+.EventCard .date span .icon {
+  color: var(--tomato-4);
+  font-size: 18px !important;
+}
+
+.EventCard .join-btn .btn {
+  border: 2px solid var(--tomato-4);
+  color: var(--tomato-4);
+  font-weight: var(--fw-semi);
+  font-size: 16px;
+}
+.EventCard .join-btn .btn a {
+  color: var(--tomato-4) !important;
+}

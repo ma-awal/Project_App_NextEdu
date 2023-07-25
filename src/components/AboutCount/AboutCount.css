@@ -1,0 +1,22 @@
+.AboutCount {
+  background: linear-gradient(#0d1028, rgba(13, 16, 40, 0.5)),
+    url('../../assets/countdown_bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 40vh;
+}
+
+.AboutCount .box {
+  padding: 1.2rem;
+  border: 5px dashed var(--dark-3);
+}
+
+.AboutCount .box h1 {
+  color: var(--tomato-4) !important;
+  font-weight: var(--fw-bold) !important;
+}
+.AboutCount .box h6 {
+  color: var(--white-1) !important;
+  font-weight: var(--fw-semi) !important;
+}

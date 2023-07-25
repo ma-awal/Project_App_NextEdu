@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+  outline: none;
+  border: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Cabin', sans-serif;
+  overflow-x: hidden;
+  font-size: 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --white-1: #ffffff;
+  --white-2: #f8f8f8;
+  --blue-1: #0d1028;
+  --blue-2: #002147;
+  --dark-1: #666666;
+  --dark-2: #686674;
+  --dark-3: #56566a;
+  --tomato-1: #ff6c28;
+  --tomato-2: #eb6527;
+  --tomato-3: #dc4a08;
+  --tomato-4: #ff5202;
+  --font-base: 15px;
+  --font-link: 15px;
+  --font-20: 20px;
+  --font-50: 50px;
+  --fw-base: 400;
+  --fw-md: 500;
+  --fw-semi: 600;
+  --fw-bold: 700;
+  --transition: 0.3s linear;
+}
+p {
+  color: var(--dark-1);
+  font-size: var(--font-base) !important;
+  line-height: 28px !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  color: #002147 !important;
+  font-size: 50px !important;
+  font-weight: var(--fw-semi) !important;
+}
+h3 {
+  color: #002147 !important;
+  font-weight: var(--fw-semi) !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h4 {
+  color: #002147 !important;
+  font-weight: var(--fw-semi) !important;
 }
 
-.App-link {
-  color: #61dafb;
+h5 {
+  color: #002147 !important;
+  font-size: var(--font-20) !important;
+  font-weight: 600 !important;
+}
+h6 {
+  color: #002147 !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+}
+img {
+  object-fit: cover !important;
+  max-width: 100%;
+  margin: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+  max-width: 1140px !important;
+  margin: auto !important;
+}
+
+.H-head h5 {
+  color: var(--tomato-4) !important;
+  font-weight: 600 !important;
+  text-transform: uppercase;
 }

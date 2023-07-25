@@ -1,0 +1,86 @@
+.S-card .single-card {
+  transition: var(--transition);
+}
+
+.S-card .single-card span {
+  display: flex;
+  justify-self: center;
+  align-self: center;
+}
+.S-card .single-card h4 {
+  font-weight: var(--fw-bold) !important;
+  color: var(--blue-1) !important;
+}
+.S-card .single-card p {
+  color: var(--dark1) !important;
+}
+.S-card .single-card a {
+  color: var(--tomato-4) !important;
+}
+
+.S-card .single-card:not(.active):hover {
+  background: var(--tomato-4);
+}
+
+.S-card .single-card:not(.active):hover img1 {
+  background: var(--white-1) !important;
+}
+
+.S-card .single-card:not(.active):hover h4,
+.S-card .single-card:not(.active):hover p,
+.S-card .single-card:not(.active):hover a {
+  color: var(--white-1) !important;
+}
+
+.S-card .single-card.active {
+  background: var(--tomato-4) !important;
+}
+
+.S-card .single-card.active h4,
+.S-card .single-card.active p,
+.S-card .single-card.active a {
+  color: var(--white-1) !important;
+}
+
+/* 2 */
+.S-card2 .single-card {
+  transition: var(--transition);
+  background: var(--blue-1);
+}
+
+.S-card2 .single-card span {
+  display: flex;
+  justify-self: center;
+  align-self: center;
+}
+.S-card2 .single-card h4 {
+  font-weight: var(--fw-bold) !important;
+  color: var(--white-1) !important;
+}
+.S-card2 .single-card p {
+  color: var(--white-1) !important;
+}
+.S-card2 .single-card a {
+  color: var(--white-1) !important;
+}
+
+.S-card2 .single-card:not(.active):hover {
+  background: var(--tomato-4);
+}
+
+/* .S-card2 .single-card:not(.active):hover img {
+  background: none;
+} */
+.S-card2 .single-card img {
+  background: none;
+}
+
+.S-card2 .single-card.active {
+  background: var(--tomato-4) !important;
+}
+
+.S-card2 .single-card.active h4,
+.S-card2 .single-card.active p,
+.S-card2 .single-card.active a {
+  color: var(--white-1) !important;
+}
