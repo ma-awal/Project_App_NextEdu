@@ -76,7 +76,10 @@ const Header = () => {
             <NavLink className="nav-link" to="/contact">
               Contact
             </NavLink>
-            <NavLink className="nav-link" onClick={() => setSearch(true)}>
+            <NavLink
+              className="nav-link d-none d-md-block"
+              onClick={() => setSearch(true)}
+            >
               <span>
                 <BiSearch className="fs-6" />
               </span>

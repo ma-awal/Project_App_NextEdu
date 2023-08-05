@@ -15,6 +15,7 @@
   width: 130px;
   padding: 0.2rem 0rem;
 }
+
 .H-banner .H-btn button a {
   color: var(--white-1) !important;
   font-weight: var(--fw-semi) !important;
@@ -33,6 +34,9 @@
     max-height: 100%;
     padding: 4rem 0rem;
   }
+  .H-banner h1 {
+    font-size: 48px !important;
+  }
 }
 @media (max-width: 768px) {
   .H-banner {
@@ -43,5 +47,8 @@
 @media (max-width: 576px) {
   .H-banner {
     padding: 2.5rem 0rem;
+  }
+  .H-banner h1 {
+    font-size: 32px !important;
   }
 }

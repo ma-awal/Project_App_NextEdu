@@ -20,7 +20,7 @@ const AboutInstructor = ({ data }) => {
               <div className="col-12 col-md-6 col-lg-3" key={id}>
                 <div className="box">
                   <div className="single-person">
-                    <img src={img} className="img-fluid" alt="img" />
+                    <img src={img} className="img-fluid w-100" alt="img" />
 
                     <div className="social-icons">
                       {links.map((link, index) => {

@@ -7,16 +7,16 @@ const HomeWorld = () => {
   return (
     <section className="Home-world py-3 py-md-4 py-lg-5">
       <div className="container py-3 py-md-4 py-lg-5 ">
-        <div class="row">
+        <div class="row gy-4 ">
           <div className="col-12 col-lg-6">
-            <div className="image">
-              <img src={img} className="img-fluid" alt="img" />
+            <div className="image text-center text-lg-start">
+              <img src={img} className="img-fluid w-100  " alt="img" />
             </div>
           </div>
           <div className="col-12 col-lg-6">
-            <div className="info">
+            <div className="info text-center text-lg-start">
               <h2 className="text-white">World Best Univercity</h2>
-              <p className="text-white">
+              <p className="text-white text-start">
                 Smply dummy text of the printing and typesetting industry. Lorem
                 Ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 <br />

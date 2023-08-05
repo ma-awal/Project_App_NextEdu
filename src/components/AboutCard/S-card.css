@@ -22,7 +22,7 @@
   background: var(--tomato-4);
 }
 
-.S-card .single-card:not(.active):hover img1 {
+.S-card .single-card:not(.active):hover img {
   background: var(--white-1) !important;
 }
 

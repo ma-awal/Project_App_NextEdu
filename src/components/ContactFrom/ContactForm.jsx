@@ -8,17 +8,7 @@ const ContactForm = () => {
         <span className="   "></span>
       </div>
       <form action="" className=" ">
-        {/* <div className="input_div">
-          <label htmlFor="name">Name</label>
-          <input
-            type="name"
-            id="name"
-            name="name"
-            className="form-control"
-            placeholder="Name"
-          />
-        </div> */}
-        <div className="input_div d-flex gap-3 justify-content-between mb-4">
+        <div className="input_div d-flex flex-column flex-md-row gap-3 justify-content-between mb-4">
           <div className="w-100">
             <input
               type="name"
@@ -38,7 +28,7 @@ const ContactForm = () => {
             />
           </div>
         </div>
-        <div className="input_div d-flex gap-3 justify-content-between mb-4">
+        <div className="input_div d-flex flex-column flex-md-row gap-3 justify-content-between mb-4">
           <div className="w-100">
             <input
               type="number"

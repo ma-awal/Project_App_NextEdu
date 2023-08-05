@@ -19,19 +19,12 @@ const FeatureSlide = ({ data }) => {
       {
         breakpoint: 992,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
           slidesToScroll: 1,
           infinite: true,
         },
       },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          initialSlide: 2,
-        },
-      },
+
       {
         breakpoint: 576,
         settings: {
@@ -43,12 +36,14 @@ const FeatureSlide = ({ data }) => {
   };
 
   return (
-    <div className="F-slide">
-      <Slider className="py-3 py-lg-4" {...settings}>
+    <div className="F-slide  ">
+      <Slider className="py-3 py-lg-4 m-auto" {...settings}>
         {data.map((item) => (
-          <div key={item.id} className="single-slide  pb-3  ">
-            <img src={item.img} className="img-fluid w-100" alt="img" />
-            <span className="price  ">$ {item.price}</span>
+          <div key={item.id} className="single-slide  pb-3   ">
+            <div className="image">
+              <img src={item.img} className="img-fluid  w-100" alt="img" />
+              <span className="price">$ {item.price}</span>
+            </div>
             <div className="icons d-flex justify-content-between py-2 px-3 border-bottom  ">
               <span>
                 <BiSolidUser className="icon" /> Next Edu
@@ -65,7 +60,7 @@ const FeatureSlide = ({ data }) => {
 
             <div className=" px-3 py-3 ">
               <h4 className=" ">{item.title}</h4>
-              <p className="p-0   m-0 mb-1  ">{item.desc}</p>
+              <p className="p-0 m-0 mb-1  ">{item.desc}</p>
               <button className="btn slide-btn rounded-0 mt-2">
                 <Link to="/apply">Apply Now</Link>
               </button>

@@ -8,6 +8,7 @@
 }
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 body {
   font-family: 'Cabin', sans-serif;
@@ -83,4 +84,18 @@ img {
   color: var(--tomato-4) !important;
   font-weight: 600 !important;
   text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  html {
+    overflow-x: hidden;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  h2 {
+    font-size: 32px !important;
+  }
 }

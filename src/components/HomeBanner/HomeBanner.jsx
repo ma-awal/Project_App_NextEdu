@@ -6,7 +6,7 @@ const HomeBanner = () => {
     <section className="H-banner">
       <div className="container">
         <div className="info">
-          <h1 className="text-white text-capitalize    fw-semibold mb-4 display-2 ">
+          <h1 className="text-white text-capitalize    fw-semibold mb-4  display-2 ">
             better education for <br /> better world
           </h1>
           <div className="H-btn d-flex gap-3">

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { FaAngleRight } from 'react-icons/fa';
 const TeacherCard = ({ data, myLogic }) => {
   return (
-    <div className="row TeacherCard ">
+    <div className="row TeacherCard gy-4  ">
       {myLogic ? (
         <>
           {data.map((perosn) => {
@@ -69,7 +69,7 @@ const TeacherCard = ({ data, myLogic }) => {
                     </div>
                     <div className="link">
                       <Link to={`/teacher/${id}`}>
-                        Details <FaAngleRight />{' '}
+                        Details <FaAngleRight />
                       </Link>
                     </div>
                   </div>

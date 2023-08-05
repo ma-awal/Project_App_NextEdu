@@ -13,7 +13,7 @@ const AboutChoose = ({ data }) => {
             pellentesque maximus lacus, nec <br /> pharetra augue.
           </p>
         </div>
-        <div className="row gy-3">
+        <div className="row gy-5 gy-lg-0">
           <div className="col-12 col-lg-4">
             <div className="single-card">
               <p>
@@ -29,9 +29,11 @@ const AboutChoose = ({ data }) => {
                 consectetur adipisicing elit. Maxime, dicta! Lorem ipsum dolor
                 sit amet consectetur adipisicing elit. Repellat, fugit.
               </p>
-              <button className="btn btn-lg px-4">
-                <Link to="/contact">Contact Us</Link>
-              </button>
+              <div className="text-center text-md-start">
+                <button className="btn btn-lg px-4  ">
+                  <Link to="/contact">Contact Us</Link>
+                </button>
+              </div>
             </div>
           </div>
           <div className="col-12 col-lg-4">

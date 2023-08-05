@@ -55,7 +55,7 @@ const HomeStudent = () => {
                   <span className="fw-semibold pe-2">{item.name}</span>(
                   {item.title})
                 </h6>
-                <span className="icon rounded-circle">
+                <span className="icon rounded-circle ">
                   <FaQuoteLeft />
                 </span>
               </div>
