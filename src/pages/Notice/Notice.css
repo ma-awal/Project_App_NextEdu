@@ -1,12 +1,12 @@
 .Notice .box {
-  border: 2px solid #ddd;
+  border: 1px solid #ddd;
 }
 
 .Notice .box:hover {
   border: 2px solid var(--tomato-4) !important;
 }
 .Notice .box .time {
-  border: 2px solid var(--tomato-4) !important;
+  border: 1px solid var(--tomato-4) !important;
   color: var(--tomato-4);
   text-align: center;
   padding: 0.4rem 0rem;

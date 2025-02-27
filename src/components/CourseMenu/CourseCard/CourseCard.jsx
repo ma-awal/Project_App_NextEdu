@@ -18,7 +18,7 @@ const CourseCard = () => {
                 </span>
                 <h5>{item.title}</h5>
                 <p className="px-2">{item.desc}</p>
-                <div className="icons border-top border-2 d-flex justify-content-around align-items-center py-3">
+                <div className="icons border-top border-1 d-flex justify-content-around align-items-center py-3">
                   <div>
                     <HiUserGroup className="icon" /> <span>{item.user}</span>
                   </div>

@@ -10,7 +10,7 @@
   height: max-content;
 }
 .U-search .input-search {
-  border: 2px solid #ddd;
+  border: 1px solid #ddd;
 }
 .U-search .input-search button {
   background: var(--tomato-4) !important;

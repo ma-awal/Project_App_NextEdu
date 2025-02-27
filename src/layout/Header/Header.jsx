@@ -40,7 +40,19 @@ const Header = () => {
             <NavLink className="nav-link" to="/courses">
               Courses
             </NavLink>
-            <NavDropdown
+            <NavLink className="nav-link" to="/teacher">
+              Teacher
+            </NavLink>
+            <NavLink className="nav-link" to="/student">
+              Student
+            </NavLink>
+            <NavLink className="nav-link" to="/result">
+              Result
+            </NavLink>
+            <NavLink className="nav-link" to="/event">
+              Event
+            </NavLink>
+            {/* <NavDropdown
               title="Pages"
               id="basic-nav-dropdown"
               className="custom-dropdown rounded-0 p-0 m-0  "
@@ -67,7 +79,7 @@ const Header = () => {
               <Link className="dropItem" to="/gallery">
                 Gallery
               </Link>
-            </NavDropdown>
+            </NavDropdown> */}
 
             <NavLink className="nav-link" to="/blog">
               Blog

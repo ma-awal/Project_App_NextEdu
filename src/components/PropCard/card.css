@@ -5,7 +5,26 @@
   align-items: center;
   height: 40vh;
   max-height: 100%;
+  position: relative;
   background: url('../../assets/about_us.png') no-repeat center/cover;
+}
+
+.All::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    rgba(99, 72, 136, 0.7),
+    rgba(20, 18, 121, 0.8)
+  ); /* Adjust gradient */
+  backdrop-filter: blur(1px); /* Adds blur effect */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  z-index: 1;
+}
+
+.All * {
+  position: relative;
+  z-index: 2; /* Ensure content is above the gradient */
 }
 
 .All .box h2 {
@@ -19,6 +38,6 @@
 }
 
 .box-link a.active {
-  color: var(--white-1);
+  color: var(--tomato-1);
   font-weight: var(--fw-semi);
 }

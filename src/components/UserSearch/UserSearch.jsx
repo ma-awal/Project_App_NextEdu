@@ -13,7 +13,7 @@ const UserSearch = () => {
         search ? 'active' : ''
       }`}
     >
-      <div className="box d-flex justify-content-center min-vh-100  py-3 py-lg-4 py-xl-5  ">
+      <div className="box d-flex justify-content-center min-vh-100 align-items-center  py-3 py-lg-4 py-xl-5  ">
         <div className="input-field py-3 px-5   col-xl-5 ">
           <div className="text-end mb-3">
             <RxCross1 className="fs-5 times  " onClick={handleCloseSearch} />

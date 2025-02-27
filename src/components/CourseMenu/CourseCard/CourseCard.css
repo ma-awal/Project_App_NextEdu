@@ -1,19 +1,19 @@
 .CourseCard .card-info {
-  border-top: 2px solid var(--tomato-4);
+  border-top: 1px solid var(--tomato-4);
   position: relative;
-  border-bottom: 2px solid #ddd;
-  border-left: 2px solid #ddd;
-  border-right: 2px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
   transition: var(--transition);
 }
 .CourseCard .card-info:hover {
-  border-top: 2px solid var(--tomato-4);
-  border-bottom: 2px solid var(--tomato-4);
-  border-left: 2px solid var(--tomato-4);
-  border-right: 2px solid var(--tomato-4);
+  border-top: 1px solid var(--tomato-4);
+  border-bottom: 1px solid var(--tomato-4);
+  border-left: 1px solid var(--tomato-4);
+  border-right: 1px solid var(--tomato-4);
 }
 .CourseCard .card-info .price {
-  border: 2px solid var(--tomato-4);
+  border: 1px solid var(--tomato-4);
   position: absolute;
   top: -15%;
   left: 50%;

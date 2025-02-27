@@ -1,8 +1,10 @@
 import React from 'react';
 import './AboutStudent.css';
+
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+
 import { BsQuote } from 'react-icons/bs';
 const AboutStudent = ({ data }) => {
   const settings = {

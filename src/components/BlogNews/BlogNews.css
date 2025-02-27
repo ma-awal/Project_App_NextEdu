@@ -1,13 +1,14 @@
 .BlogNews .input-search {
-  border: 2px solid #ddd;
+  border: 1px solid #ddd;
+  padding-left: 0.5rem;
 }
 .BlogNews .input-search button {
   background: var(--tomato-4) !important;
   color: var(--white-1);
 }
 .BlogNews .news .single-news img {
-  height: 70px;
-  object-fit: cover;
+  height: 60px;
+  object-fit: contain;
 }
 .BlogNews .tag button {
   background: var(--white-2);
@@ -16,8 +17,9 @@
   background: var(--tomato-4);
 }
 .BlogNews .tag button a {
+  border-radius: 6px;
   color: var(--dark-2) !important;
-  font-size: var(--font-link) !important;
+  font-size: 14px;
   font-weight: var(--fw-semi) !important;
 }
 .BlogNews .tag button:hover a {

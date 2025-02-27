@@ -34,37 +34,37 @@ const BlogNews = ({ data }) => {
       <div className="tag p-3 border">
         <h5 className="mb-3 text-center">Popualar Tag</h5>
         <div className=" d-flex gap-2 flex-wrap    ">
-          <button className="btn rounded-0">
+          <button className="btn  ">
             <Link to="#" className="text-uppercase">
               FINACE
             </Link>
           </button>
-          <button className="btn rounded-0">
+          <button className="btn  ">
             <Link to="#" className="text-uppercase">
               FINACE
             </Link>
           </button>
-          <button className="btn rounded-0">
+          <button className="btn ">
             <Link to="#" className="text-uppercase">
               FINACE
             </Link>
           </button>
-          <button className="btn rounded-0">
+          <button className="btn  ">
             <Link to="#" className="text-uppercase">
               FINACE
             </Link>
           </button>
-          <button className="btn rounded-0">
+          <button className="btn  ">
             <Link to="#" className="text-uppercase">
               FINACE
             </Link>
           </button>
-          <button className="btn rounded-0">
+          <button className="btn  ">
             <Link to="#" className="text-uppercase">
               FINACE
             </Link>
           </button>
-          <button className="btn rounded-0">
+          <button className="btn  ">
             <Link to="#" className="text-uppercase">
               FINACE
             </Link>

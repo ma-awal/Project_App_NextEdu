@@ -1,11 +1,11 @@
 .F-slide .single-slide {
   max-width: 95%;
-  border: 2px solid #ddd;
+  border: 1px solid #ddd;
   transition: var(--transtion);
-  margin: 0 auto !important;
+  margin: 1px auto !important;
 }
 .F-slide .single-slide:hover {
-  border: 2px solid var(--tomato-4);
+  border: 1px solid var(--tomato-4);
 }
 .F-slide .image {
   position: relative;

@@ -13,8 +13,9 @@
   color: var(--dark-1);
   font-size: var(--font-base);
   font-weight: var(--fw-semi);
-  border: 2px solid #ddd;
+  border: 1px solid #ddd;
   border-radius: 0;
+  outline: none;
 }
 
 .c-form form .textarea .text_area {
@@ -24,10 +25,12 @@
   color: var(--dark-1);
   font-size: var(--font-base);
   font-weight: var(--fw-semi);
-  border: 2px solid #ddd;
+  border: 1px solid #ddd;
   border-radius: 0;
   resize: none !important;
+  outline: none;
 }
+
 .c-form form button {
   background: var(--tomato-4) !important;
   color: var(--white-1) !important;

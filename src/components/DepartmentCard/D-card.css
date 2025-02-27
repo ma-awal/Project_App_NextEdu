@@ -2,10 +2,10 @@
 }
 .D-card .single-card {
   transition: var(--transition);
-  border: 2px solid #ddd;
+  border: 1px solid #ddd;
 }
 .D-card .single-card:hover {
-  border: 2px solid var(--tomato-4);
+  border: 1px solid var(--tomato-4);
   box-shadow: 0px 0px 25px 5px rgba(19, 21, 26, 0.113);
 }
 .D-card .single-card a {
